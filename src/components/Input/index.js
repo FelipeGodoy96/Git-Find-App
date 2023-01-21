@@ -1,7 +1,7 @@
 import "./styles.css"
 
-export const Input = ({value}) => {
+export const Input = ({onChange, placeholder}) => {
     return (
-        <input />
+        <input onChange={onChange} placeholder={placeholder}/>
     )
 }

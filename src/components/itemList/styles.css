@@ -10,6 +10,10 @@
     margin-top: 24px 0;
 }
 
+.item-list a {
+    text-decoration: none;
+}
+
 .item-list {
     margin: 24px 0;
 }

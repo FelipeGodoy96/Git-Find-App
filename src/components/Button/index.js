@@ -1,7 +1,7 @@
 import "./styles.css"
 
-export const Button = ({text}) => {
+export const Button = ({onClick, text}) => {
     return (
-        <button>{text}</button>
+        <button onClick={onClick}>{text}</button>
     )
 }

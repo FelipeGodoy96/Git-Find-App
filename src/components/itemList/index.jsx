@@ -1,10 +1,10 @@
 import React from "react"
 import "./styles.css"
 
-export const ListItem = ({title, description}) => {
+export const ListItem = ({title, description, htmlUrl}) => {
     return (
         <div className="item-list">
-        <strong>{title}</strong>
+        <strong><a href={htmlUrl}>{title}</a></strong>
         <p>{description}</p>
         <hr />
         </div>

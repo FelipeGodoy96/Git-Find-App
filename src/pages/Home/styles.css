@@ -10,6 +10,7 @@
     height: 90vh;
     padding: 2rem;
     left: -25%;
+    z-index: -5;
 }
 
 .info {
@@ -18,6 +19,10 @@
     margin-top: 40px;
     color: #FFF;
 
+}
+
+.userInfo {
+    margin-top: 12px;
 }
 
 .profile {
