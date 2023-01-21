@@ -1,0 +1,68 @@
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    height: 90vh;
+    padding: 2rem;
+    left: -25%;
+}
+
+.info {
+    width: 60%;
+    margin-right: 90px;
+    margin-top: 40px;
+    color: #FFF;
+
+}
+
+.profile {
+    display: flex;
+}
+
+.profile h3 {
+    color: #999999;
+    font-size: 24px;
+    margin: 0;
+}
+
+.profile span { 
+    display: block;
+    color: #999999;
+    font-size: 12px;
+    margin: 0;
+}
+
+.profile p {
+    color: #999999;
+    font-size: 12px;
+    margin: 20px 0 0 0;
+}
+
+.avatar { 
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 2px solid #E5E5E5;
+    margin-right: 32px;
+    margin-top: 24px;
+}
+
+
+.repo {
+    font-size: 32px;
+    color: white;
+    margin: 12px 0;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .background {
+        visibility: hidden;
+    }
+}
+

@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-style: 'Roboto';
+    background-color: #1D2128;
+}
+
+
+hr {
+    background-color: rgba(229, 229, 229, 0.2);
+    border: 1px solid rgba(2229, 229, 229, 0.2);
+    margin: 24px 0;
+}
